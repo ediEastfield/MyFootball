@@ -64,7 +64,7 @@ dependencies {
     //Database
     implementation "androidx.room:room-runtime:$room_version"
     kapt "androidx.room:room-compiler:$room_version"
-    androidTestImplementation "androdix.room:room-testing:$room_version"
+    androidTestImplementation "androidx.room:room-testing:$room_version"
 
     //Networking
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
