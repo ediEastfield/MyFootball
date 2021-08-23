@@ -44,7 +44,7 @@ class MatchResultAdapter : RecyclerView.Adapter<MatchResultAdapter.ListViewHolde
 
         init {
             binding.root.setOnClickListener {
-                onItemClick?.invoke(listData[adapterPosition])
+                onItemClick?.invoke(listData[bindingAdapterPosition])
             }
         }
     }

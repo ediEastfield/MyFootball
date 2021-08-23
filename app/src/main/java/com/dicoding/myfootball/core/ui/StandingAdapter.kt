@@ -53,7 +53,7 @@ class StandingAdapter : RecyclerView.Adapter<StandingAdapter.ListViewHolder>() {
 
         init {
             binding.root.setOnClickListener {
-                onItemClick?.invoke((listData[adapterPosition]))
+                onItemClick?.invoke((listData[bindingAdapterPosition]))
             }
         }
     }
