@@ -10,7 +10,7 @@ data class Event(
     val leagueId: String,
     val league: String,
     val season: String,
-    val description: String,
+    val description: String?,
     val homeTeam: String,
     val awayTeam: String,
     val homeScore: String,
